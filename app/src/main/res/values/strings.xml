@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">ButtonNavigation</string>
+    <string name="menu1">Home</string>
+    <string name="menu2">Cart</string>
+    <string name="menu3">Profile</string>
+    <string name="deskrip">deskripp</string>
+    <string name="lg">Login</string>
+    <string name="uname">Username</string>
+    <string name="pw">Password</string>
+    <string name="hintuname">Masukkan username</string>
+    <string name="hintpw">Masukkan password</string>
+    <string name="hll">Hello,</string>
+    <string name="top">Top Movie 2023</string>
+    <string name="judulsher">Petualangan Sherina 2</string>
+    <string name="judultgr">Tegar</string>
+    <string name="judulair">Air Mata di Ujung Sajadah</string>
+    <string name="judulghost">Hello Ghost</string>
+    <string name="judulsuhita">Hati Suhita</string>
+    <string name="judulbuyham">Buya Hamka</string>
+    <string name="rating">ting</string>
+    <string name="judulpay">Payment</string>
+    <string name="jam">MUSICAL . 2h6m</string>
+    <string name="lokasi">2023  |  SU  |  IDN</string>
+    <string name="noOrder">Order Number:</string>
+    <string name="seatt">Seat:</string>
+    <string name="paymeth">Payment Method:</string>
+    <string name="jenisSeat">Type of Seat:</string>
+    <string name="biayalynn">Convenience Fee:</string>
+    <string name="nomor">1198804794001625088</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

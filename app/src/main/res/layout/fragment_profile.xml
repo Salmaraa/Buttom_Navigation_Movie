@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".profileFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:id="@+id/bck2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bck"
+            android:contentDescription="@string/deskrip" />
+
+        <TextView
+            android:id="@+id/judul_profile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Profile"
+            android:textSize="28sp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="130dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/uname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anisah"
+            android:textSize="24sp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/judul_profile"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/no_hp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+62 857-0498-1748"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/uname"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ansararara@gmail.com"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:layout_below="@+id/no_hp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true">
+        </TextView>
+
+        <Button
+            android:id="@+id/logoutButton"
+            android:backgroundTint="@color/grey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/email"
+            android:layout_marginTop="100dp"
+            android:layout_centerHorizontal="true"
+            android:text="Logout">
+        </Button>
+
+    </RelativeLayout>
+
+
+</FrameLayout>
